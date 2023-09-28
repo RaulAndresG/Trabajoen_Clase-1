@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(218, 132, 132);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5rem;
+}
+
+.navbar a:hover {
+    background-color: #d17d7d44;
+}
+
+.navbar a:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column; 
+    }
+
+    .navbar a {
+        padding: 10px 0; 
+    }
+}
+
+

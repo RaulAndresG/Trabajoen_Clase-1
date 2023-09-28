@@ -1,0 +1,103 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-image:url(https://images.pling.com/img/00/00/64/96/96/1732271/northern-lights-beautiful-photos1.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado */
+h1 {
+  color: #333;
+  text-align: center;
+  background-color: #00000000;
+  color: white;
+  padding: 20px;
+}
+
+/* Estilos para la lista de tareas */
+ul {
+  list-style: none;
+  padding: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+
+li {
+  background-color: #0e0a0aa4;
+  border: 1px solid #ccc;
+  color: #ddffde;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
+  border-radius: 1rem;
+  border: 2px solid;
+  height: 5rem;
+  width: 10rem;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+li button.add-button {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+li button.update-button {
+  background-color: #36424db2;
+  color: #fff;
+}
+
+li button.edit-button {
+  background-color: #036e06;
+  color: #000000b9;
+}
+
+li button.delete-button {
+  background-color: #fa0303c9;
+  color: #000000b9;
+}
+
+/* Estilos para el formulario de tareas */
+.form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center; /* Centrar el contenido del formulario */
+}
+
+.form input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.form button.add-button {
+  background-color: #4CAF50;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+}

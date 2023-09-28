@@ -1,0 +1,55 @@
+Desde ahora eres un programador en sistemas , necesito esto 
+Un cliente requiere que se cree un aplicacion de tipo SPA
+en REactJS , la cual pueda gestinar la revivion , modificacion ,actualizacion y eliminacion de
+tareas . Dicha aplicacion podra tambien manejar  diferentes estados de dicha tarea (Creada , En pausa En Curso y 
+Terminada)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

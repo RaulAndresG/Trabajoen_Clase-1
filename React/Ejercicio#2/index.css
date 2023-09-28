@@ -1,0 +1,36 @@
+
+
+.article-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.h1{
+    color: #000000;
+    
+}
+.article  {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 2.2rem;
+    text-align: center;
+    background-color: #db9a9a57;
+}
+.article:hover{
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .article {
+        flex: 0 0 calc(60% - 20px);
+    }
+}
